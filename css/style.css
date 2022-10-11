@@ -1,0 +1,150 @@
+html{
+    --bg-body : linear-gradient(to right, rgba(101,103,103), white) ;
+    --color-text : white;
+    --color-link : rgb(60, 143, 188);
+    --font-title : 'segoe ui';
+    --font-text : 'segoe ui';
+}
+
+body {
+    margin: 0px;
+    font-family: var(--font-text);
+    background-image: var(--bg-body) ;
+    height: 100vh;
+    color: var(--color-text);
+}
+
+/* ************* */
+/**** NAVBAR ****/
+/* ************* */
+
+
+.navbar-logo {
+    width: 100%;
+}
+
+.navbar-title {
+    width: 255px;
+}
+
+.nav-link-title{
+    width: 100%;
+    margin-right: 1%;
+}
+
+.navbar-brand{
+    width: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    margin-left: 70%;
+}
+
+.nav-link{
+    color: black;
+}
+
+#active {
+    color: rgb(60, 143, 188);
+}
+
+/* ********************* */
+/**** Right side home ****/
+/* ************* *********/
+
+.container-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.introduction-paragraph{
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    padding: 2%;
+}
+
+h1,h3{
+    padding: 3%;
+}
+
+p{
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-item a{
+    color: var(--color-link);
+}
+
+.introduction-more{
+    padding: 3%;
+    margin-top: 3%;
+    background-color: rgba(51,51,51);
+    color: var(--color-link);
+    
+}
+
+.introduction-titles{
+    width: 100%;
+}
+
+.introduction-paragraph-right,.introduction-paragraph-left {
+    width: 40%;
+}
+
+
+
+/* ********************* */
+/**** Left side home ****/
+/* ************* *********/
+
+.container-picture{
+    width: 60%;
+}
+
+.picture-dog{
+    width: 100%;
+}
+
+
+
+
+
+
+/* ********************* */
+/**** Footer ****/
+/* ************* *********/
+
+footer{
+    background-color:  rgba(51,51,51);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  black;
+}
+
+.container-footer a{
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.footer-contact, .footer-map-site{
+    padding: 1%;
+}
