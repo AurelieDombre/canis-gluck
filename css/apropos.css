@@ -1,0 +1,51 @@
+
+body {
+    height: 100vh;
+    color: rgba(101,103,103);
+}
+
+.description{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.description .bg-title{
+    width: 70%;
+    
+}
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.dog-item-title{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12%;
+    
+}
+
+.bg-title {
+    background-color: rgba(255, 255, 255, .85);
+    display: flex;
+}
+
+.title-heading {
+    text-transform: uppercase;
+    padding : .5rem;
+}
+
+.title-heading .title-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.title-heading .title-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+

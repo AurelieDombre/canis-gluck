@@ -118,9 +118,6 @@ a{
 
 
 
-
-
-
 /* ********************* */
 /**** Footer ****/
 /* ************* *********/
@@ -140,11 +137,25 @@ footer{
     background-color:  black;
 }
 
+.copyright p{
+    padding: 0;
+    margin-bottom: 0;
+    font-size: x-small;
+}
+.container-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .container-footer a{
     text-decoration: none;
     color: var(--color-link);
+    padding: 2%;
 }
 
 .footer-contact, .footer-map-site{
     padding: 1%;
+    
 }
