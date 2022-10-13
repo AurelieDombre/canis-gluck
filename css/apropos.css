@@ -1,18 +1,50 @@
-
 body {
-    height: 100vh;
-    color: rgba(101,103,103);
+    
+    background: linear-gradient(-45deg,  rgb(60, 143, 188), rgb(142, 204, 204), rgba(101, 103, 103),  rgb(60, 143, 188), rgba(101, 103, 103),);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100%;
+    color: rgba(101, 103, 103) ;
 }
 
-.description{
-    margin-top: 10%;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+h1 {
+    font-size: 100px;
+    background: rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+.description {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
+    background-color: rgba(255, 255, 255, .85);
+    height: 30vh;
 }
 
-.description .bg-title{
+.description .bg-title {
     width: 70%;
-    
+
 }
 
 .page-section {
@@ -20,7 +52,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.dog-item-title{
+.dog-item-title {
     display: flex;
     justify-content: flex-end;
     margin-right: 12%;
@@ -28,7 +60,7 @@ body {
 
 .title-heading {
     text-transform: uppercase;
-    padding : .5rem;
+    padding: .5rem;
 
 }
 
@@ -44,14 +76,14 @@ body {
     font-weight: 100;
 }
 
-.block-title{
-    background:rgb(60, 143, 188);
+.block-title {
+    background: rgb(60, 143, 188);
     color: white;
     box-shadow: 3px 3px 5px 5px rgba(255, 255, 255, .5);
     /* background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101,103,103) 100%); */
 }
 
-.dog-item-img{
+.dog-item-img {
     box-shadow: 3px 3px 5px 5px rgba(32, 30, 30, 0.678);
 }
 
@@ -60,4 +92,3 @@ body {
     display: flex;
     box-shadow: 3px 3px 5px 5px rgba(32, 30, 30, 0.678);
 }
-
