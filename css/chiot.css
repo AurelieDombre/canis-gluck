@@ -48,3 +48,65 @@ body {
 #slider:hover #suivant {
     opacity: 1;
 }
+
+/* ************* */
+/**** Puppy****/
+/* ************* */
+
+
+.section-dogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-puppy{
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    border: 5px rgb(169, 169, 169) ridge; /*outset ?*/
+    box-shadow: 4px 4px 4px 4px grey;
+    background-color: white;
+    
+}
+
+.section-puppy-text{
+    padding-left: 1%;
+    padding-right: 2%;
+    height: 50%;
+}
+
+.section-puppy-text li{
+    list-style-type: none;
+
+}
+
+h1{
+    font-size: 100px;
+    background:rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101,103,103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul{
+    text-align: center;
+    line-height: 50px;
+}
+
+span{
+    font-size: 25px;
+    background:rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101,103,103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2%;
+    
+}
+
+.section-puppy-img{
+    display: flex;
+
+}
