@@ -61,7 +61,7 @@ li{
 /**** Right side home ****/
 /* ************* *********/
 
-.container-fluid{
+.container_home{
     display: flex;
 }
 
