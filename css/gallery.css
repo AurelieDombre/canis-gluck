@@ -15,7 +15,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.grid-wrap ul,
+.grid-wrap ul
 li {
     list-style: none;
     padding: 0;
