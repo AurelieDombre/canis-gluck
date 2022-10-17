@@ -51,9 +51,21 @@ body {
     color: var(--color-link);
 }
 
+li{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
 /* ********************* */
 /**** Right side home ****/
 /* ************* *********/
+
+.container-fluid{
+    display: flex;
+}
+
+
 
 .container-introduction {
     display: flex;
@@ -142,14 +154,13 @@ a {
 
 .contact-title-h3,
 .contact-title-h1 {
-    background: rgb(60, 143, 188);
+    /* background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: white;
 
 }
-
-
 
 .contact-paragraph {
     flex-direction: column;
@@ -162,6 +173,7 @@ a {
 .icon_email {
     width: 8%;
     margin-right: 4%;
+    
 }
 
 .icon_phone {
@@ -177,13 +189,17 @@ a {
 .contact a {
     text-decoration: none;
     color: rgb(60, 143, 188);
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .paragraph {
-    background: rgb(60, 143, 188);
+    /* background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: white;
 }
 
 
@@ -231,5 +247,60 @@ footer {
 .footer-contact,
 .footer-map-site {
     padding: 1%;
+
+}
+
+
+
+@media screen and (max-width: 576px){
+
+    .navbar-brand{
+        width: 15%;
+
+    }
+
+    /* ************* */
+    /**** Accueil****/
+    /* ************* */
+    .container-fluid{
+        display: block;
+    }
+
+    .container-introduction{
+        width: 100%;
+    }
+
+    .introduction-paragraph-right, .introduction-paragraph-left {
+        width: 50%;
+    }
+
+    /* ************* */
+    /**** Contact****/
+    /* ************* */ 
+
+    .container-contact {
+        width: 100%;
+
+    }
+
+    .contact a {
+        font-size: 17px;
+
+    }
+
+    .icon_email, .icon_social{
+        width: 10%;
+        
+    }
+
+    .icon_phone{
+        width: 15%;
+    }
+
+    .container-picture {
+        width: 100%;
+    }
+
+
 
 }

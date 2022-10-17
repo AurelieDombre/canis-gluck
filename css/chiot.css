@@ -103,3 +103,34 @@ span {
     display: flex;
 
 }
+
+
+
+@media screen and (max-width: 576px){
+
+
+    .slider__img {
+        object-fit: contain;
+    }
+
+    .slider {
+        height: 15em;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .section-puppy{
+        display: block;
+        width: 95%;
+    }
+
+    .puppy-img img{
+        width: 100%;
+    }
+
+    .section-puppy-text ul {
+        padding: 0;
+    }
+}
