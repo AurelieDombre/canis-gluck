@@ -13,6 +13,7 @@ body {
     background-image: var(--bg-body);
     height: 100vh;
     color: var(--color-text);
+    cursor: url(../images/cursor.png), pointer;
 }
 
 /* ************* */
@@ -45,6 +46,7 @@ body {
 
 .nav-link {
     color: black;
+    cursor: url(../images/cursor.png), pointer;
 }
 
 #active {

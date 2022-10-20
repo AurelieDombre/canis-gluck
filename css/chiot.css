@@ -75,7 +75,6 @@ body {
 }
 
 
-
 h1 {
     font-size: 100px;
     background: rgb(60, 143, 188);
@@ -103,7 +102,6 @@ span {
     /* display: flex; */
     width: 50%;
 }
-
 
 
 @media screen and (max-width: 576px){
