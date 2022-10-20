@@ -11,6 +11,15 @@ body {
     /* cursor: url(../images/cursor.png), pointer; */
 }
 
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dog-img, .dog-tree{
+    width: 80%;
+}
 .return{
     margin-top: 2%;
     margin-bottom: 2%;
