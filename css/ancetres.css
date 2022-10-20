@@ -2,9 +2,19 @@
 /**** Arbres généalogiques****/
 /* ************* *************/
 
+body {
+    margin: 0px;
+    font-family: var(--font-text);
+    background-image: var(--bg-body);
+    height: 100vh;
+    color: var(--color-text);
+    /* cursor: url(../images/cursor.png), pointer; */
+}
 
-
-
+.return{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 
 
