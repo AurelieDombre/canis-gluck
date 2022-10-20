@@ -1,0 +1,19 @@
+/* *************************** */
+/**** Arbres généalogiques****/
+/* ************* *************/
+
+
+
+
+
+
+
+
+
+.btn_return {
+    padding: 1%;
+    background-color: var(--color-link);
+    box-shadow: 3px 3px 5px rgb(37, 36, 36);
+    color: white;
+
+}

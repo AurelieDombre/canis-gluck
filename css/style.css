@@ -1,11 +1,19 @@
+
+@font-face {
+    font-family: 'Good Vibrations';
+    src: url('../fonts/GoodVibrations-Script.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     --bg-body: linear-gradient(to right, rgba(101, 103, 103), white);
     --color-text: white;
     --color-link: rgb(60, 143, 188);
-    --font-title: 'segoe ui';
-    --font-text: 'segoe ui';
+    --font-title: 'Good Vibrations';
+    --font-text: 'verdana', 'sans-serif';
 }
-
 
 body {
     margin: 0px;
@@ -13,7 +21,7 @@ body {
     background-image: var(--bg-body);
     height: 100vh;
     color: var(--color-text);
-    cursor: url(../images/cursor.png), pointer;
+    /* cursor: url(../images/cursor.png), pointer; */
 }
 
 /* ************* */
@@ -88,6 +96,7 @@ li{
 h1,
 h3 {
     padding: 3%;
+    
 }
 
 p {
@@ -96,6 +105,11 @@ p {
 
 a {
     text-decoration: none;
+    cursor: url(../images/cursor.png), pointer;
+}
+
+a:hover{
+    color: rgba(101, 103, 103);
 }
 
 .nav-item a {
@@ -105,8 +119,9 @@ a {
 .introduction-more {
     padding: 3%;
     margin-top: 3%;
-    background-color: rgba(51, 51, 51);
-    color: var(--color-link);
+    background-color: var(--color-link);
+    box-shadow: 3px 3px 5px rgb(37, 36, 36);
+    color: white;
 
 }
 
@@ -120,11 +135,9 @@ a {
 }
 
 
-
 /* ********************* */
 /**** Left side home ****/
 /* ************* *********/
-
 
 
 .container-picture {
