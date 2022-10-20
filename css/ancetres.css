@@ -20,19 +20,5 @@ body {
 .dog-img, .dog-tree{
     width: 80%;
 }
-.return{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 
 
-
-
-
-.btn_return {
-    padding: 1%;
-    background-color: var(--color-link);
-    box-shadow: 3px 3px 5px rgb(37, 36, 36);
-    color: white;
-
-}
