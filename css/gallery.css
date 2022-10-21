@@ -219,9 +219,12 @@ li {
 
 @media screen and (max-width: 576px){
 
-
     .title_gallery{
         font-size: 40px;
+    }
+    .hovereffect p {
+        font-size: 30px;
+        margin-top: 0;
     }
 
 }
