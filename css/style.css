@@ -308,7 +308,7 @@ footer {
     margin-top: 20%;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px){
 
     .navbar-brand{
         width: 15%;
@@ -355,6 +355,10 @@ footer {
 
     .container-picture {
         width: 100%;
+    }
+
+    span{
+        display: none;
     }
 
 
