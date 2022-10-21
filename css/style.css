@@ -282,7 +282,28 @@ footer {
 
 }
 
+/* ****************** */
+/**** PLAN DU SITE****/
+/* ************* *****/
 
+.list_link a{
+    color: white;
+}
+
+.list_link a:hover{
+    color: var(--color-link);
+}
+
+.plan-title-h1 {
+    font-size: 100px;
+    background: rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 2%;
+    
+}
 
 @media screen and (max-width: 576px){
 
