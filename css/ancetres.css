@@ -13,12 +13,20 @@ body {
 
 .wrap{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-.dog-img, .dog-tree{
-    width: 80%;
+.dog-tree{
+    width: 40%;
 }
 
+.dog-img{
+    width: 30%;
+}
 
+.dog-tree{
+    margin-left: 2%;
+}
