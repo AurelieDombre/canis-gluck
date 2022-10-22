@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-h1 img{
-    width: 100%;
+.title_gallery{
+    text-align: center;
 }
 
 .grid-wrap ul
@@ -220,6 +220,10 @@ li {
     .hovereffect p {
         font-size: 30px;
         margin-top: 0;
+    }
+
+    h1 img{
+        width: 100%;
     }
 
 }
