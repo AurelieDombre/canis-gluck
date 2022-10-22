@@ -366,12 +366,10 @@ footer {
 
     .contact a {
         font-size: 17px;
-
     }
 
     .icon_email, .icon_social{
         width: 10%;
-        
     }
 
     .icon_phone{
@@ -386,6 +384,16 @@ footer {
         display: none;
     }
 
+    .return_page_contact-link {
+        margin-top: 5%;
+    }
 
+/* ********************* */
+/**** Footer *************/
+/* ************* *********/
+    footer {
+        height: 50px;
+
+    }
 
 }

@@ -26,13 +26,17 @@ h1 {
     margin-top: 2%;
 }
 
+.section_details_p{
+    padding: 1%;
+    padding-bottom: 0;
+}
 
 .description {
     margin-top: 5%;
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, .85);
-    height: 30vh;
+    height: 25vh;
 }
 
 .description .bg-title {
@@ -100,8 +104,8 @@ h1 {
 
 @media screen and (max-width: 576px){
 
-    h1{
-        font-size: 40px;
+    h1 img{
+        width: 100%;
     }
 
     .description {
