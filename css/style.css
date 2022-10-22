@@ -115,6 +115,10 @@ h3 {
     font-size: 40px;
 }
 
+h1 img{
+    width: 65%;
+}
+
 p {
     padding: 2%;
 }
