@@ -1,23 +1,33 @@
 
+
 @font-face {
-    font-family: 'Good Vibrations';
-    src: url('../fonts/GoodVibrations-Script.ttf') format('truetype');
+    font-family: 'Biograph';
+    src: url('../fonts/Biograph.otf') format('openType');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Holiday';
+    src: url('../fonts/Holiday.woff') format('webOpenType');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
+
 html {
     --bg-body: linear-gradient(to right, rgba(101, 103, 103), white);
     --color-text: white;
     --color-link: rgb(60, 143, 188);
-    --font-title: 'Good Vibrations';
-    --font-text: 'verdana', 'sans-serif';
+    --font-title: 'Biograph';
+    --font-text: 'Holiday', 'sans-serif';
 }
 
 body {
     margin: 0px;
-    font-family: var(--font-text);
+    font-family: 'Holiday';
+    
     background-image: var(--bg-body);
     height: 100vh;
     color: var(--color-text);
@@ -50,6 +60,7 @@ body {
 
 .navbar-nav {
     margin-left: 65%;
+    font-size: 20px;
 }
 
 .nav-link {
@@ -97,6 +108,11 @@ h1,
 h3 {
     padding: 3%;
     
+}
+
+h3 {
+    font-family: 'Biograph';
+    font-size: 40px;
 }
 
 p {
@@ -240,7 +256,7 @@ a:hover{
 
 
 /* ********************* */
-/**** Footer ****/
+/**** Footer *************/
 /* ************* *********/
 
 footer {
@@ -249,6 +265,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Holiday';
+    font-size: 20px;
 }
 
 .copyright {
@@ -298,6 +316,7 @@ footer {
 
 .plan-title-h1 {
     font-size: 100px;
+    font-family: 'Biograph';
     background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
     -webkit-background-clip: text;

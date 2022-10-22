@@ -13,6 +13,7 @@
     background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Biograph';
 }
 
 .grid-wrap ul

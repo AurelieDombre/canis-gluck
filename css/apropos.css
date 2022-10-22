@@ -23,14 +23,14 @@ body {
 
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     margin-top: 2%;
-    
+    font-family: 'Biograph';
 }
 
 
@@ -64,16 +64,18 @@ h1 {
 
 }
 
-.title-heading .title-heading-upper {
+.title-heading {
     display: block;
     font-size: 1rem;
-    font-weight: 800;
+    
+    
 }
 
 .title-heading .title-heading-lower {
     display: block;
     font-size: 3rem;
-    font-weight: 100;
+    font-family: 'Biograph';
+    text-transform : capitalize;
 }
 
 .block-title {
