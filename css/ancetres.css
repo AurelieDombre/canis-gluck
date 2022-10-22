@@ -8,9 +8,7 @@ body {
     height: 100vh;
     /* cursor: url(../images/cursor.png), pointer; */
     background: var(--bg-body);
-    height: 100%;
-    
-    
+    height: 100vh;
 }
 
 .wrap{
