@@ -10,7 +10,7 @@
     background: linear-gradient(-45deg,  rgb(60, 143, 188), rgb(142, 204, 204), rgba(101, 103, 103),  rgb(60, 143, 188), rgba(101, 103, 103),);
     background-size: 400% 400%;
     animation: gradient 12s ease infinite;
-    height: 100%;
+    height:286rem;
 }
 
 .title_gallery {

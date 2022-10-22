@@ -2,10 +2,6 @@ body {
     height: 100vh;
     color: rgba(101, 103, 103);
     font-family: 'Holiday';
-    background: linear-gradient(-45deg,  rgb(60, 143, 188), rgb(142, 204, 204), rgba(101, 103, 103),  rgb(60, 143, 188), rgba(101, 103, 103),);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100%;
 }
 
 /* ************* */
