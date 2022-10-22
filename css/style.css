@@ -27,11 +27,11 @@ html {
 body {
     margin: 0px;
     font-family: 'Holiday';
-    
     background-image: var(--bg-body);
     height: 100vh;
     color: var(--color-text);
     /* cursor: url(../images/cursor.png), pointer; */
+    
 }
 
 /* ************* */
