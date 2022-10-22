@@ -340,6 +340,10 @@ footer {
 
     }
 
+    .navbar-title {
+        width:180px;
+    }
+
     /* ************* */
     /**** Accueil****/
     /* ************* */
@@ -380,7 +384,7 @@ footer {
         width: 100%;
     }
 
-    span{
+    .contact span{
         display: none;
     }
 
