@@ -11,7 +11,7 @@ body {
 .slider {
     position: relative;
     top: 3%;
-    height: 30em;
+    height: 50em;
     display: flex;
     align-items: center;
     justify-content: space-between;
