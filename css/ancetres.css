@@ -25,7 +25,6 @@ body {
 
 .wrap_tree{
     width: 50%;
-    margin-top: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,3 +47,10 @@ body {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 } */
+@media screen and (max-width: 992px){
+
+    .wrap_tree{
+        margin-top: 20%;
+    }
+    
+}
