@@ -80,7 +80,7 @@ const slider = {
     },
     loadImages: function () {
         // fonction qui va inserer dans le DOM des images pour le slider
-        const sliderImages = ["Thor-au-parc.jpg", "Thor-au-parc-1.jpg", "dog.jpg", "shepherd-dog-resize.jpg"];
+        const sliderImages = ["Thor-au-parc.jpg", "Thor-au-parc-1.jpg", "dog.jpg", "Thor-au-parc-2.jpg"];
 
         // 1 - selectionner l'element slider qui sera le parent dans lequel on va inserer les images
         const sliderElmt = document.querySelector(".slider");
