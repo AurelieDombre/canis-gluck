@@ -1,3 +1,13 @@
+html {
+    --bg-body: linear-gradient(to right, rgba(101, 103, 103), white);
+    --color-text: white;
+    --color-link: rgb(60, 143, 188);
+    --font-title: 'Biograph';
+    --font-text: 'Holiday', 'sans-serif';
+}
+
+
+
 body {
     height: 100vh;
     color: rgba(101, 103, 103);
@@ -50,6 +60,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 
@@ -101,6 +112,61 @@ span {
     width: 50%;
 }
 
+
+/* ************* */
+/**** Croquette****/
+/* ************* */
+
+.dogs_croquette {
+    margin-bottom: 2rem;
+}
+.dogs_croquette--title{
+    font-size: 28px;
+    font-weight: bold;
+    background: rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 40%, rgba(101, 103, 103) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2%;
+}
+.dogs_croquette--p{
+    font-size: 1.5rem;
+}
+
+.dogs_croquette--img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.dogs_croquette--img img{
+    border: 5px rgb(169, 169, 169) ridge;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+
+
+/* ************* */
+/**** Conseil****/
+/* ************* */
+
+.dog--conseil{
+    background-color: white;
+    padding: 1rem 1rem;
+}
+
+.dog--conseil span{
+    padding: 1rem 1rem;
+}
+
+.dog--conseil p{
+    padding: 1rem 1rem;
+}
+
+.dog--conseil li{
+    list-style: circle;
+}
 
 @media screen and (max-width: 576px){
 
