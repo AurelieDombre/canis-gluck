@@ -113,60 +113,20 @@ span {
 }
 
 
-/* ************* */
-/**** Croquette****/
-/* ************* */
-
-.dogs_croquette {
-    margin-bottom: 2rem;
-}
-.dogs_croquette--title{
-    font-size: 28px;
-    font-weight: bold;
-    background: rgb(60, 143, 188);
-    background: linear-gradient(to right, rgb(60, 143, 188) 40%, rgba(101, 103, 103) 60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 2%;
-}
-.dogs_croquette--p{
-    font-size: 1.5rem;
+.wrap_conseil_btn{
+    width: 15rem;
+    height: 15rem;
 }
 
-.dogs_croquette--img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem;
+.conseil_btn{
+    padding: 7%;
+    display: inline;
+    margin-top: 3%;
+    background:linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
+    box-shadow: 3px 3px 5px rgb(37, 36, 36);
+    color: white;
 }
 
-.dogs_croquette--img img{
-    border: 5px rgb(169, 169, 169) ridge;
-    box-shadow: 4px 4px 4px 4px grey;
-}
-
-
-/* ************* */
-/**** Conseil****/
-/* ************* */
-
-.dog--conseil{
-    background-color: white;
-    padding: 1rem 1rem;
-}
-
-.dog--conseil span{
-    padding: 1rem 1rem;
-}
-
-.dog--conseil p{
-    padding: 1rem 1rem;
-}
-
-.dog--conseil li{
-    list-style: circle;
-}
 
 @media screen and (max-width: 576px){
 
@@ -209,11 +169,11 @@ span {
     }
 
     span{
-    font-size: 16px;
+        font-size: 16px;
 
     }
 
     .section-puppy-text ul {
-        padding: left 4rem;
+        padding-left: 4rem;
     }
 }
