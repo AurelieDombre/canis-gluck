@@ -70,15 +70,19 @@ body {
     margin: 3%;
     border: 5px rgb(169, 169, 169) ridge;
     /*outset ?*/
+    width: 65%;
     box-shadow: 4px 4px 4px 4px grey;
     background-color: white;
 
 }
 
 .section-puppy-text {
-    padding-left: 3%;
-    height: 50%;
-    width: 50%;
+    width: 100%;
+}
+
+.section-puppy-img {
+    /* display: flex; */
+    
 }
 
 .section-puppy-text li {
@@ -94,7 +98,7 @@ h1 img {
 .section-puppy-text ul {
     text-align: center;
     line-height: 40px;
-    
+    padding: 0;
 }
 
 span {
@@ -107,10 +111,6 @@ span {
 
 }
 
-.section-puppy-img {
-    /* display: flex; */
-    width: 50%;
-}
 
 
 .wrap_conseil_btn{
@@ -128,7 +128,7 @@ span {
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px){
 
 
     .slider__img {
@@ -148,7 +148,8 @@ span {
     }
 
     .section-puppy{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 95%;
     }
 
@@ -177,3 +178,22 @@ span {
         padding-left: 4rem;
     }
 }
+
+/*
+@media screen and (min-width: 993px){
+    .section-puppy-text {
+        padding-left: 14%;
+        height: 50%;
+        width: 100%;
+    }
+
+    .section-puppy-img {
+        width: 0;
+
+    }
+    
+    .section-puppy{
+        width: 100%;
+    }
+
+}*/
