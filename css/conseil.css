@@ -127,6 +127,14 @@ body{
         height: 50%;
     }
 
+    .dog--conseil--text{
+        width: 100%;
+    }
+
+    ul{
+        padding: 0;
+    }
+
     .dog--conseil--title,
     .dog--conseil--title--h3{
         font-size: 2rem;
