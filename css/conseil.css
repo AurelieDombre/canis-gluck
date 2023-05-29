@@ -4,6 +4,7 @@ html {
     --color-link: rgb(60, 143, 188);
     --font-title: 'Biograph';
     --font-text: 'Holiday', 'sans-serif';
+    box-sizing: border-box;
 }
 
 body{
@@ -125,4 +126,11 @@ body{
         width: 100%;
         height: 50%;
     }
+
+    .dog--conseil--title,
+    .dog--conseil--title--h3{
+        font-size: 2rem;
+    }
+
+
 }
