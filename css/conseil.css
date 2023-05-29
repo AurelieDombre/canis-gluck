@@ -61,7 +61,7 @@ body{
 }
 
 .dogs_conseil--title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     padding: 2%;
@@ -76,7 +76,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-family: var(--font-title);
-    font-size: 2rem;
+    font-size: 1.8rem;
     background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 40%, rgba(101, 103, 103) 60%);
     -webkit-background-clip: text;
