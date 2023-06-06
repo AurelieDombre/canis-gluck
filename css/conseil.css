@@ -111,8 +111,11 @@ body{
     justify-content: center;
 }
 
-.table-responsive{
+.table-activity{
     margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and  ( max-width: 992px){
