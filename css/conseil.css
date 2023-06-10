@@ -54,7 +54,7 @@ body{
 .dog--conseil{
     background-color: white;
     padding: 1rem 1rem;
-    width: 70%;
+    width: 90%;
     margin: auto;
     box-shadow: 4px 4px 4px 4px grey;
     
@@ -76,7 +76,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-family: var(--font-title);
-    font-size: 1.8rem;
+    font-size: 2rem;
     background: rgb(60, 143, 188);
     background: linear-gradient(to right, rgb(60, 143, 188) 40%, rgba(101, 103, 103) 60%);
     -webkit-background-clip: text;
@@ -85,6 +85,7 @@ body{
 
 .dog--conseil p{
     padding: 1rem 1rem;
+    font-size: 1.3rem;
 }
 
 .dog--conseil li{
@@ -107,8 +108,10 @@ body{
     height: 40%;
 }
 
+
 .dog--conseil--text{
     justify-content: center;
+    
 }
 
 .table-activity{
@@ -118,6 +121,10 @@ body{
     justify-content: center;
 }
 
+.table-activity img{
+    width: 100%;
+}
+
 @media screen and  ( max-width: 992px){
     .dog--conseil_wrap {
         display: flex;
@@ -125,12 +132,24 @@ body{
         flex-direction: column;
     }
 
+    .dogs_croquette--title{
+        font-size: 2.5rem;
+    }
+
+    .dogs_croquette--p {
+        font-size: 1.3rem;
+    }
+
     .dog--conseil--img{
-        width: 100%;
+        width: 90%;
         height: 50%;
     }
 
     .dog--conseil--text{
+        width: 90%;
+    }
+
+    .dog--conseil p {
         width: 100%;
     }
 
@@ -146,5 +165,9 @@ body{
         font-size: 1.5rem;
     }
 
+    .return{
+        display: flex;
+        justify-content: center;
+    }
 
 }
