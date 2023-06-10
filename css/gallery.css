@@ -105,7 +105,7 @@ li {
 
 .grid-wrap ul li:nth-child(14) {
     grid-row: span 2;
-    grid-column: span 6;
+    grid-column: span 4;
 }
 
 .grid-wrap ul li:nth-child(15) {
@@ -114,15 +114,20 @@ li {
 }
 
 .grid-wrap ul li:nth-child(16) {
-    grid-row: span 2;
+    grid-row: span 1;
     grid-column: span 5;
 }
 
-.grid-wrap ul li:nth-child(17) {
-    grid-row: span 3;
-    grid-column: span 6;
+/*.grid-wrap ul li:nth-child(17) {
+    grid-row: span 1;
+    grid-column: span 3;
 }
 
+.grid-wrap ul li:nth-child(18) {
+    grid-row: span 2;
+    grid-column: span 5;
+}
+*/
 .grid-wrap ul img {
     width: 100%;
     height: 100%;
