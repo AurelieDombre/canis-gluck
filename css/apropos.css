@@ -112,7 +112,7 @@ h1 {
     }
 
     .description {
-        height: 370vh;
+        height: 100%;
         padding: 2%;
         box-sizing: content-box;
     }
