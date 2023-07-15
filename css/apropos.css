@@ -112,11 +112,11 @@ h1 {
     }
 
     .description {
-        height: 125vh;
+        height: 150vh;
         padding: 2%;
     }
 
-     .dog-item .dog-item-title {
+    .dog-item .dog-item-title {
         justify-content: center;
     }
 }
