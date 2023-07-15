@@ -33,10 +33,11 @@ h1 {
 
 .description {
     margin-top: 5%;
+    padding: 2%;
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, .85);
-    height: 40vh;
+    height: 100%;
 }
 
 .description .bg-title {
@@ -112,7 +113,7 @@ h1 {
     }
 
     .description {
-        height: 100%;
+
         padding: 2%;
         box-sizing: content-box;
     }
@@ -143,10 +144,6 @@ h1 {
         max-width: 50vw
     }
 
-    .description {
-        height: 130vh;
-        padding: 2%;
-    }
 }
 
 @media (min-width: 993px) {
@@ -169,9 +166,5 @@ h1 {
         max-width: 50vw
     }
 
-    .description {
-        height: 65vh;
-        padding: 2%;
-    }
 }
 
