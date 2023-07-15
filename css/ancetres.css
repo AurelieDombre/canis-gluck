@@ -35,9 +35,7 @@ body {
     margin-left: 2%;
 }
 
-/* .dog-img{
-    width: 50%;
-} */
+
 
 .tree{
     margin-top: 3%;
@@ -55,6 +53,10 @@ body {
 
     .wrap_tree{
         margin-top: 20%;
+    }
+
+    .big-tree{
+        width: 95%;
     }
     
 }
