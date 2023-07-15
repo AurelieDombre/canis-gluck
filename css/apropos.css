@@ -114,6 +114,7 @@ h1 {
     .description {
         height: 370vh;
         padding: 2%;
+        box-sizing: content-box;
     }
 
     .dog-item .dog-item-title {
