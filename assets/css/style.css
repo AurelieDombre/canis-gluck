@@ -238,6 +238,11 @@ a:hover{
     margin-right: 4%;
 }
 
+.icon_position {
+    width: 10%;
+    margin-right: 4%;
+}
+
 .contact a {
     text-decoration: none;
     color: rgb(60, 143, 188);
