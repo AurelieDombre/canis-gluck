@@ -111,7 +111,9 @@ h1 img {
 
 }
 
-
+.puppy-img img{
+    width: 100%;
+}
 
 .wrap_conseil_btn{
     width: 15rem;
