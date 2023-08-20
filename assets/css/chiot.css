@@ -82,7 +82,7 @@ body {
 
 .section-puppy-img {
     /* display: flex; */
-    
+
 }
 
 .section-puppy-text li {
@@ -113,6 +113,7 @@ h1 img {
 
 .puppy-img img{
     width: 100%;
+
 }
 
 .wrap_conseil_btn{
@@ -162,9 +163,7 @@ h1 img {
         width: 95%;
     }
 
-    .puppy-img img{
-        width: 100%;
-    }
+
 
     .section-puppy-text ul {
         padding: 0;
