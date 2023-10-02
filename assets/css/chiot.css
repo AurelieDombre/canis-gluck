@@ -135,7 +135,22 @@ h1 img {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    width: 100%;1
+    width: 100%;
+}
+
+.message_stop_dogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.message_stop_dogs--p{
+    font-size: 3rem;
+    background: rgb(60, 143, 188);
+    background: linear-gradient(to right, rgb(60, 143, 188) 0%, rgba(101, 103, 103) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 992px){
